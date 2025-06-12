@@ -1,0 +1,87 @@
+
+export const doctors = [
+  {
+    id: 1,
+    name: "Dr. Sarah Johnson",
+    specialization: "Cardiologist",
+    experience: 12,
+    rating: 4.8,
+    image: "/placeholder.svg",
+    location: "New York Medical Center",
+    education: "MD from Harvard Medical School",
+    about: "Dr. Sarah Johnson is a board-certified cardiologist with over 12 years of experience in treating heart conditions. She specializes in preventive cardiology and has published numerous research papers.",
+    availability: ["Monday", "Wednesday", "Friday"],
+    timeSlots: ["9:00 AM", "10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM", "4:00 PM"],
+    consultationFee: 150
+  },
+  {
+    id: 2,
+    name: "Dr. Michael Chen",
+    specialization: "Dermatologist",
+    experience: 8,
+    rating: 4.9,
+    image: "/placeholder.svg",
+    location: "Skin Care Clinic",
+    education: "MD from Stanford University",
+    about: "Dr. Michael Chen is a renowned dermatologist specializing in cosmetic and medical dermatology. He has extensive experience in treating skin conditions and anti-aging treatments.",
+    availability: ["Tuesday", "Thursday", "Saturday"],
+    timeSlots: ["9:00 AM", "10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM"],
+    consultationFee: 120
+  },
+  {
+    id: 3,
+    name: "Dr. Emily Rodriguez",
+    specialization: "Pediatrician",
+    experience: 15,
+    rating: 4.7,
+    image: "/placeholder.svg",
+    location: "Children's Health Center",
+    education: "MD from Johns Hopkins University",
+    about: "Dr. Emily Rodriguez is a dedicated pediatrician with 15 years of experience in child healthcare. She is passionate about providing comprehensive care for children from infancy through adolescence.",
+    availability: ["Monday", "Tuesday", "Thursday", "Friday"],
+    timeSlots: ["8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM"],
+    consultationFee: 100
+  },
+  {
+    id: 4,
+    name: "Dr. Robert Williams",
+    specialization: "Orthopedic Surgeon",
+    experience: 20,
+    rating: 4.6,
+    image: "/placeholder.svg",
+    location: "Orthopedic Specialty Hospital",
+    education: "MD from Mayo Clinic",
+    about: "Dr. Robert Williams is a highly experienced orthopedic surgeon specializing in joint replacement and sports medicine. He has performed over 2000 successful surgeries.",
+    availability: ["Wednesday", "Friday", "Saturday"],
+    timeSlots: ["9:00 AM", "10:00 AM", "11:00 AM", "1:00 PM", "2:00 PM"],
+    consultationFee: 200
+  },
+  {
+    id: 5,
+    name: "Dr. Lisa Thompson",
+    specialization: "Gynecologist",
+    experience: 10,
+    rating: 4.8,
+    image: "/placeholder.svg",
+    location: "Women's Health Clinic",
+    education: "MD from UCLA Medical School",
+    about: "Dr. Lisa Thompson is a compassionate gynecologist providing comprehensive women's healthcare services including preventive care, pregnancy management, and minimally invasive surgeries.",
+    availability: ["Monday", "Wednesday", "Thursday"],
+    timeSlots: ["9:00 AM", "10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM", "4:00 PM"],
+    consultationFee: 130
+  },
+  {
+    id: 6,
+    name: "Dr. James Wilson",
+    specialization: "Neurologist",
+    experience: 18,
+    rating: 4.9,
+    image: "/placeholder.svg",
+    location: "Neurology Center",
+    education: "MD from Yale University",
+    about: "Dr. James Wilson is a leading neurologist with expertise in treating neurological disorders including epilepsy, stroke, and neurodegenerative diseases. He is actively involved in clinical research.",
+    availability: ["Tuesday", "Thursday", "Friday"],
+    timeSlots: ["9:00 AM", "10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM"],
+    consultationFee: 180
+  }
+];
